@@ -1,12 +1,11 @@
 import React from 'react';
-import { Text } from 'react-native';
 
 import { Container } from './styles';
 
-const Title: React.FC = () => {
+const Title: React.FC = ({ children }) => {
   return (
     <Container>
-      <Text>Title</Text>
+      {children}
     </Container>
   );
 };
